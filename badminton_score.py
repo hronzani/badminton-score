@@ -33,9 +33,12 @@ if sys.version_info.major == 3:
 pygame.init()
 
 info = pygame.display.Info() # You have to call this before pygame.display.set_mode()
-#screen_width,screen_height = info.current_w,info.current_h
+
 screen_width = 800
 screen_height = 600
+
+#Uncomment the below to use fullscreen on pc with better resolutions (not tested, the cursor focus may need adjusts)
+#screen_width,screen_height = info.current_w,info.current_h
 
 window_width,window_height = screen_width-10,screen_height-10
 
