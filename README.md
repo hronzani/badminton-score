@@ -19,4 +19,3 @@ m|decrement by 1 point Player 2 current game
 The simple layout was inspired by [this project](https://github.com/bnw/badminton-anzeige).
 
 **Screenshot:**
-![Badminton Score](./screenshot.png)
